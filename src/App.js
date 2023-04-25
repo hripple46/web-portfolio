@@ -19,7 +19,7 @@ function App() {
           <li className="text-white">Contact</li>
         </ul>
       </nav>
-      <div className="h-auto pt-28 md:pt-0 md:h-screen md-16 border-b-4 flex flex-col items-center justify-evenly md:flex-row">
+      <div className="h-screen pt-28 md:pt-0 md:h-screen md-16 border-b-4 flex flex-col items-center justify-evenly md:flex-row">
         <div className="h-3/5 relative w-[360px] ">
           <img className="h-full w-auto" src={ProfilePic} alt="Profile" />
           <FloatingSkills
@@ -46,28 +46,31 @@ function App() {
           </h1>
         </div>
       </div>
-      <div className=" relative h-screen bg-indigo-950">
-        <h1 className="text-center text-4xl text-white">Projects</h1>
+      <div className=" flex flex-col justify-around items-center md:relative h-screen bg-indigo-950 ">
+        <h1 className="md:absolute md:top-0 text-center text-4xl text-white">
+          Projects
+        </h1>
+
         <Projects
           project="Project 1"
-          xPosition={"left-0"}
+          xPosition={"md:left-0"}
           scrollPosition={200}
-          newPosition={"top-[40px]"}
+          newPosition={"md:top-[40px]"}
           oldPosition={"top-full"}
         />
         <Projects
           project="Project 2"
-          xPosition={"right-1/3"}
+          xPosition={"md:right-1/3"}
           scrollPosition={400}
-          newPosition={"top-[232px]"}
-          oldPosition={"top-full"}
+          newPosition={"md:top-[232px]"}
+          oldPosition={"md:top-full"}
         />
         <Projects
           project="Project 3"
-          xPosition={"right-0"}
+          xPosition={"md:right-0"}
           scrollPosition={500}
-          newPosition={"top-[424px]"}
-          oldPosition={"top-full"}
+          newPosition={"md:top-[424px]"}
+          oldPosition={"md:top-full"}
         />
       </div>
     </div>

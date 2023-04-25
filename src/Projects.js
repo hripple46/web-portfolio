@@ -17,14 +17,16 @@ const Projects = (props) => {
 
   return (
     <div
-      className={`absolute ${
+      className={`relative md:absolute ${
         props.xPosition
-      }  transition-all ease-in delay-300 h-1/4 w-1/3 bg-sky-400 rounded-md ${
+      }  transition-all ease-in delay-300 h-1/4 w-1/2 md:w-1/3 bg-sky-400 rounded-md ${
         isVisible ? props.newPosition : props.oldPosition
       }
       }`}
     >
-      <p className="absolute top-full text-white">{props.project}</p>
+      <p className="absolute md:left-0 left-full ml-2 md:top-full text-white">
+        {props.project}
+      </p>
     </div>
   );
 };
