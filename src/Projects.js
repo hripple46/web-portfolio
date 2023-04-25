@@ -2,16 +2,16 @@ import React, { useState, useEffect, useRef } from "react";
 import "./Projects.css";
 const Projects = (props) => {
   const [isVisible, setIsVisible] = useState(false);
+  const getScrollPosition = () => {
+    if (window.scrollY > 200) {
+      setIsVisible(true);
+    }
+  };
 
   useEffect(() => {
-    window.addEventListener("scroll", () => {
-      console.log("Current Position:" + window.scrollY);
-      if (window.scrollY > 200) {
-        setIsVisible(true);
-      }
-    });
+    window.addEventListener("scroll", getScrollPosition);
     return () => {
-      window.removeEventListener("scroll", () => {});
+      window.removeEventListener("scroll", getScrollPosition);
     };
   }, []);
 
