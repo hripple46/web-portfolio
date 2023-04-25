@@ -2,6 +2,7 @@ import "./App.css";
 import ProfilePic from "./img/IMG_0040_Blue.png";
 import React, { useState } from "react";
 import FloatingSkills from "./FloatingSkills";
+import Projects from "./Projects";
 
 function App() {
   return (
@@ -39,6 +40,9 @@ function App() {
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </h1>
         </div>
+      </div>
+      <div className="relative h-screen">
+        <Projects />
       </div>
     </div>
   );
