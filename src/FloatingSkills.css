@@ -1,4 +1,7 @@
 .box {
+  width: 100px;
+  height: 100px;
+  background-color: #1e90ff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,6 +17,6 @@
   }
 }
 
-.box.spin-x-axis {
+.spin-x-axis {
   animation: spin 0.5s 1 forwards;
 }
