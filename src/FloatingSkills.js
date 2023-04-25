@@ -13,12 +13,14 @@ const FloatingSkills = (props) => {
 
   return (
     <div
-      className={`box absolute h-16 w-32 bg-blue-400 rounded-md ${
+      className={`box absolute h-16 w-32 bg-sky-400 rounded-md ${
         spin ? "spin-x-axis" : ""
       }`}
       onMouseEnter={handleMouseEnter}
       style={props.style}
-    ></div>
+    >
+      <p className="text-white">{props.skillText}</p>
+    </div>
   );
 };
 
