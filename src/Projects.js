@@ -23,7 +23,9 @@ const Projects = (props) => {
         isVisible ? props.newPosition : props.oldPosition
       }
       }`}
-    ></div>
+    >
+      <p className="absolute top-full text-white">{props.project}</p>
+    </div>
   );
 };
 

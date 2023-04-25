@@ -46,23 +46,27 @@ function App() {
           </h1>
         </div>
       </div>
-      <div className="relative h-screen">
+      <div className="relative h-screen bg-indigo-950">
+        <h1 className="text-center text-4xl text-white">Projects</h1>
         <Projects
+          project="Project 1"
           xPosition={"left-0"}
           scrollPosition={200}
-          newPosition={"top-0"}
+          newPosition={"top-[40px]"}
           oldPosition={"top-full"}
         />
         <Projects
+          project="Project 2"
           xPosition={"right-1/3"}
           scrollPosition={400}
-          newPosition={"top-48"}
+          newPosition={"top-[232px]"}
           oldPosition={"top-full"}
         />
         <Projects
+          project="Project 3"
           xPosition={"right-0"}
           scrollPosition={500}
-          newPosition={"top-96"}
+          newPosition={"top-[424px]"}
           oldPosition={"top-full"}
         />
       </div>
