@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from "react";
-import "./Projects.css";
 const Projects = (props) => {
   const [isVisible, setIsVisible] = useState(false);
   const getScrollPosition = () => {
