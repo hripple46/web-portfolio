@@ -46,7 +46,7 @@ function App() {
           </h1>
         </div>
       </div>
-      <div className=" flex flex-col justify-around items-center md:relative h-screen bg-indigo-950 ">
+      <div className=" flex flex-col justify-around md:relative h-screen bg-indigo-950 ">
         <h1 className="md:absolute md:top-0 text-center text-4xl text-white">
           Projects
         </h1>
@@ -55,22 +55,22 @@ function App() {
           project="Project 1"
           xPosition={"md:left-0"}
           scrollPosition={200}
-          newPosition={"md:top-[40px]"}
-          oldPosition={"top-full"}
+          newPosition={"md:top-[40px] -right-1/4"}
+          oldPosition={"md:top-full right-full"}
         />
         <Projects
           project="Project 2"
           xPosition={"md:right-1/3"}
           scrollPosition={400}
-          newPosition={"md:top-[232px]"}
-          oldPosition={"md:top-full"}
+          newPosition={"md:top-[232px] -right-1/4"}
+          oldPosition={"md:top-full right-full"}
         />
         <Projects
           project="Project 3"
           xPosition={"md:right-0"}
           scrollPosition={500}
-          newPosition={"md:top-[424px]"}
-          oldPosition={"md:top-full"}
+          newPosition={"md:top-[424px] -right-1/4"}
+          oldPosition={"md:top-full right-full"}
         />
       </div>
     </div>

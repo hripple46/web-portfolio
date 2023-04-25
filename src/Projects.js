@@ -19,7 +19,7 @@ const Projects = (props) => {
     <div
       className={`relative md:absolute ${
         props.xPosition
-      }  transition-all ease-in delay-300 h-1/4 w-1/2 md:w-1/3 bg-sky-400 rounded-md ${
+      }  transition-all translate ease-in delay-300 h-1/4 w-1/2 md:w-1/3 bg-sky-400 rounded-md ${
         isVisible ? props.newPosition : props.oldPosition
       }
       }`}
