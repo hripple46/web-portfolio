@@ -12,14 +12,14 @@ function App() {
 
   return (
     <div className="bg-indigo-950 h-full">
-      <nav className="fixed top-0 left-0 right-0 flex items-center justify-between   h-16">
+      <nav className="z-10 fixed bg-indigo-950 top-0 left-0 right-0 flex items-center justify-between   h-16">
         <ul className="flex flex-row justify-evenly w-full">
           <li className="text-white">Skills</li>
           <li className="text-white">Projects</li>
           <li className="text-white">Contact</li>
         </ul>
       </nav>
-      <div className="h-screen md-16 border-b-4 flex items-center justify-evenly">
+      <div className="h-auto pt-28 md:pt-0 md:h-screen md-16 border-b-4 flex flex-col items-center justify-evenly md:flex-row">
         <div className="h-3/5 relative w-[360px] ">
           <img className="h-full w-auto" src={ProfilePic} alt="Profile" />
           <FloatingSkills
@@ -35,18 +35,18 @@ function App() {
             skillText={"CSS"}
           />
         </div>
-        <div className="w-1/3">
-          <p className="text-sm mb-12 text-white">
+        <div className="w-3/4 md:w-1/3">
+          <p className="hidden md:block text-sm mb-12 text-white">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-          <h1 className="text-4xl text-white">
+          <h1 className="text-2xl md:text-4xl text-white">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </h1>
         </div>
       </div>
-      <div className="relative h-screen bg-indigo-950">
+      <div className=" relative h-screen bg-indigo-950">
         <h1 className="text-center text-4xl text-white">Projects</h1>
         <Projects
           project="Project 1"
