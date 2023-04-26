@@ -48,7 +48,7 @@ function App() {
         </div>
       </div>
       <div className=" flex flex-col justify-around md:relative h-screen bg-indigo-950 ">
-        <h1 className=" md:absolute  md:justify-self-center  md:top-0 text-center  text-4xl text-white md:mb-8">
+        <h1 className=" md:absolute  md:mt-8 md:justify-self-center  md:top-0 text-center  text-4xl text-white md:mb-8">
           Projects
         </h1>
 
