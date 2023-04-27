@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import FloatingSkills from "./FloatingSkills";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import Skills from "./Skills";
 
 function App() {
   useEffect(() => {
@@ -46,6 +47,9 @@ function App() {
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </h1>
         </div>
+      </div>
+      <div className="h-screen bg-indigo-950">
+        <Skills />
       </div>
       <div className=" flex flex-col justify-around md:relative h-screen bg-indigo-950 ">
         <h1 className=" md:absolute  md:mt-8 md:justify-self-center  md:top-0 text-center  text-4xl text-white md:mb-8">
