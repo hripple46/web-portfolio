@@ -1,8 +1,8 @@
 import React from "react";
 const PopupSkills = (props) => {
   return (
-    <div className="m-2 relative bg-white w-20 h-20 flex justify-center items-center">
-      <p className="mb-2 text-black absolute bottom-0 z-0">{props.title}</p>
+    <div className="m-2 relative  w-20 h-20 flex justify-center items-center">
+      <p className="mb-2 text-white absolute bottom-0 z-0">{props.title}</p>
       {props.image}
     </div>
   );

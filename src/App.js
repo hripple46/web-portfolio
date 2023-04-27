@@ -55,29 +55,10 @@ function App() {
             image={
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-16 w-16 bg-white rounded-md z-10"
-                viewBox="0 0 342 480"
+                className="h-16 w-16 bg-white rounded-md z-10 hover:-translate-y-8 transition-transform duration-500 ease-in-out"
+                viewBox="0 0 342 540"
                 version="1.1"
               >
-                <g id="#000000ff">
-                  <path
-                    className="fill-white"
-                    opacity="1.00"
-                    d=" M 68.37 0.96 C 89.37 0.70 110.37 0.88 131.37 0.87 C 131.42 7.44 131.52 14.01 131.28 20.58 C 116.73 20.48 102.19 20.58 87.65 20.67 C 87.55 30.21 87.36 39.75 87.45 49.29 C 102.05 49.38 116.66 49.52 131.26 49.46 C 131.43 54.86 131.37 60.28 131.21 65.69 C 110.27 65.55 89.33 65.61 68.39 65.63 C 68.44 44.07 68.48 22.52 68.37 0.96 Z"
-                  />
-                  <path
-                    className="fill-white"
-                    fill="#000000"
-                    opacity="1.00"
-                    d=" M 138.86 0.89 C 160.12 0.85 181.38 0.72 202.65 0.96 C 202.57 7.17 202.63 13.37 202.63 19.58 C 187.16 19.53 171.68 19.60 156.21 19.78 C 156.23 22.22 156.23 24.66 156.21 27.10 C 171.66 27.35 187.10 27.38 202.54 27.47 C 202.60 40.20 202.57 52.92 202.65 65.64 C 181.38 65.60 160.11 65.62 138.84 65.72 C 138.73 60.58 138.72 55.45 138.87 50.31 C 153.61 50.35 168.36 50.37 183.10 50.25 C 183.19 46.94 183.23 43.62 183.22 40.31 C 168.41 40.31 153.59 40.36 138.78 40.26 C 138.78 27.14 138.78 14.01 138.86 0.89 Z"
-                  />
-                  <path
-                    className="fill-white"
-                    fill="#000000"
-                    opacity="1.00"
-                    d=" M 209.77 1.00 C 230.99 1.00 252.22 1.00 273.44 1.00 C 273.53 7.24 273.62 13.48 273.42 19.71 C 257.88 19.70 242.34 19.79 226.80 19.82 C 226.84 22.37 226.90 24.92 227.03 27.47 C 242.48 27.40 257.93 27.59 273.37 27.75 C 273.51 40.42 273.61 53.09 273.43 65.76 C 252.16 65.70 230.89 65.70 209.62 65.80 C 209.49 60.68 209.45 55.54 209.67 50.42 C 224.38 50.53 239.10 50.51 253.82 50.37 C 253.86 47.05 253.93 43.73 253.90 40.42 C 239.13 40.56 224.35 40.48 209.57 40.43 C 209.57 27.29 209.67 14.14 209.77 1.00 Z"
-                  />
-                </g>
                 <g id="#0170baff">
                   <path
                     fill="#0170ba"
@@ -124,13 +105,9 @@ function App() {
             image={
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 512 512"
-                className="h-16 w-16"
+                viewBox="0 0 512 580"
+                className="h-16 w-16 bg-white rounded-md  z-10 hover:-translate-y-8 transition-transform duration-500 ease-in-out"
               >
-                <path
-                  className="fill-white"
-                  d="M108.4 0h23v22.8h21.2V0h23v69h-23V46h-21v23h-23.2M206 23h-20.3V0h63.7v23H229v46h-23M259.5 0h24.1l14.8 24.3L313.2 0h24.1v69h-23V34.8l-16.1 24.8l-16.1-24.8v34.2h-22.6M348.7 0h23v46.2h32.6V69h-55.6"
-                />
                 <path
                   fill="#e44d26"
                   d="M107.6 471l-33-370.4h362.8l-33 370.2L255.7 512"
@@ -153,8 +130,8 @@ function App() {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
-                className="h-12 w-12"
-                viewBox="0 0 54 33"
+                className="h-16 w-16 bg-white rounded-md  z-10 hover:-translate-y-8 transition-transform duration-500 ease-in-out"
+                viewBox="0 0 56 30"
               >
                 <g clip-path="url(#prefix__clip0)">
                   <path
@@ -178,7 +155,7 @@ function App() {
             title="React"
             image={
               <svg
-                className="h-12 w-12"
+                className="h-16 w-16 bg-white rounded-md z-10 hover:-translate-y-8 transition-transform duration-500 ease-in-out"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="-11.5 -10.23174 23 20.46348"
               >
@@ -198,7 +175,7 @@ function App() {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 630 630"
-                className="w-12 h-12"
+                className="w-16 h-16 bg-white rounded-md z-10 hover:-translate-y-8 transition-transform duration-500 ease-in-out"
               >
                 <rect width="630" height="630" fill="#f7df1e" />
                 <path d="m423.2 492.19c12.69 20.72 29.2 35.95 58.4 35.95 24.53 0 40.2-12.26 40.2-29.2 0-20.3-16.1-27.49-43.1-39.3l-14.8-6.35c-42.72-18.2-71.1-41-71.1-89.2 0-44.4 33.83-78.2 86.7-78.2 37.64 0 64.7 13.1 84.2 47.4l-46.1 29.6c-10.15-18.2-21.1-25.37-38.1-25.37-17.34 0-28.33 11-28.33 25.37 0 17.76 11 24.95 36.4 35.95l14.8 6.34c50.3 21.57 78.7 43.56 78.7 93 0 53.3-41.87 82.5-98.1 82.5-54.98 0-90.5-26.2-107.88-60.54zm-209.13 5.13c9.3 16.5 17.76 30.45 38.1 30.45 19.45 0 31.72-7.61 31.72-37.2v-201.3h59.2v202.1c0 61.3-35.94 89.2-88.4 89.2-47.4 0-74.85-24.53-88.81-54.075z" />
@@ -210,9 +187,9 @@ function App() {
             image={
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-16 w-16"
+                className="h-16 w-16 bg-white rounded-md z-10 hover:-translate-y-8 transition-transform duration-500 ease-in-out"
                 version="1.2"
-                viewBox="0 0 442.37 270.929"
+                viewBox="0 0 100 300"
               >
                 <defs>
                   <clipPath id="a">
@@ -307,7 +284,7 @@ function App() {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 272.96 114.01"
-                className="h-12 w-12"
+                className="h-16 w-16 bg-white rounded-md z-10 hover:-translate-y-8 transition-transform duration-500 ease-in-out"
               >
                 <path
                   className="fill-black"
@@ -333,8 +310,8 @@ function App() {
             image={
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-12 w-12 fill-black stroke-current text-black "
-                viewBox="0 0 24 24"
+                className="h-16 w-16 bg-white rounded-md fill-black stroke-current text-black z-10 hover:-translate-y-8 transition-transform duration-500 ease-in-out"
+                viewBox="0 0 25 22"
                 height={72}
                 width={48}
                 stroke="black"
@@ -358,7 +335,7 @@ function App() {
                 version="1.1"
                 x="0px"
                 y="0px"
-                className="h-8 w-16"
+                className="h-16 w-16 bg-white rounded-md z-10 hover:-translate-y-8 transition-transform duration-500 ease-in-out"
                 viewBox="0 0 18 7"
               >
                 <path
