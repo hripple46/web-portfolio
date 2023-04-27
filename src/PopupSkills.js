@@ -5,7 +5,7 @@ const PopupSkills = (props) => {
     <div
       onMouseOver={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
-      className="m-2 relative  w-20 h-20 flex justify-center items-center"
+      className="m-2 relative  w-20 h-20 flex justify-center items-center shadow-xl"
     >
       <p className="mb-2 text-white absolute bottom-0 z-0">{props.title}</p>
       <div

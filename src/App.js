@@ -50,7 +50,7 @@ function App() {
       </div>
       <div className="h-screen bg-indigo-950 flex flex-col justify-evenly">
         <h1 className="text-4xl text-white text-center">Skills</h1>
-        <div className="flex justify-center">
+        <div className=" flex justify-center">
           <PopupSkills
             title="CSS"
             image={
