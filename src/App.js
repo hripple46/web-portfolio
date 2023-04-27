@@ -49,13 +49,14 @@ function App() {
         </div>
       </div>
       <div className="h-screen bg-indigo-950 flex flex-col justify-evenly">
+        <h1 className="text-4xl text-white text-center">Skills</h1>
         <div className="flex justify-center">
           <PopupSkills
             title="CSS"
             image={
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-16 w-16 bg-white rounded-md z-10 hover:-translate-y-8 transition-transform duration-500 ease-in-out"
+                className="h-16 w-16 bg-white rounded-md z-10 "
                 viewBox="0 0 342 540"
                 version="1.1"
               >
@@ -106,7 +107,7 @@ function App() {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 580"
-                className="h-16 w-16 bg-white rounded-md  z-10 hover:-translate-y-8 transition-transform duration-500 ease-in-out"
+                className="h-16 w-16 bg-white rounded-md  z-10"
               >
                 <path
                   fill="#e44d26"
@@ -130,7 +131,7 @@ function App() {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
-                className="h-16 w-16 bg-white rounded-md  z-10 hover:-translate-y-8 transition-transform duration-500 ease-in-out"
+                className="h-16 w-16 bg-white rounded-md  z-10 "
                 viewBox="0 0 56 30"
               >
                 <g clip-path="url(#prefix__clip0)">
@@ -155,7 +156,7 @@ function App() {
             title="React"
             image={
               <svg
-                className="h-16 w-16 bg-white rounded-md z-10 hover:-translate-y-8 transition-transform duration-500 ease-in-out"
+                className="h-16 w-16 bg-white rounded-md z-10 "
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="-11.5 -10.23174 23 20.46348"
               >
@@ -170,12 +171,12 @@ function App() {
             }
           />
           <PopupSkills
-            title="JavaScript"
+            title="JS"
             image={
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 630 630"
-                className="w-16 h-16 bg-white rounded-md z-10 hover:-translate-y-8 transition-transform duration-500 ease-in-out"
+                className="w-16 h-16 bg-white rounded-md z-10 "
               >
                 <rect width="630" height="630" fill="#f7df1e" />
                 <path d="m423.2 492.19c12.69 20.72 29.2 35.95 58.4 35.95 24.53 0 40.2-12.26 40.2-29.2 0-20.3-16.1-27.49-43.1-39.3l-14.8-6.35c-42.72-18.2-71.1-41-71.1-89.2 0-44.4 33.83-78.2 86.7-78.2 37.64 0 64.7 13.1 84.2 47.4l-46.1 29.6c-10.15-18.2-21.1-25.37-38.1-25.37-17.34 0-28.33 11-28.33 25.37 0 17.76 11 24.95 36.4 35.95l14.8 6.34c50.3 21.57 78.7 43.56 78.7 93 0 53.3-41.87 82.5-98.1 82.5-54.98 0-90.5-26.2-107.88-60.54zm-209.13 5.13c9.3 16.5 17.76 30.45 38.1 30.45 19.45 0 31.72-7.61 31.72-37.2v-201.3h59.2v202.1c0 61.3-35.94 89.2-88.4 89.2-47.4 0-74.85-24.53-88.81-54.075z" />
@@ -187,9 +188,9 @@ function App() {
             image={
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-16 w-16 bg-white rounded-md z-10 hover:-translate-y-8 transition-transform duration-500 ease-in-out"
+                className="h-16 w-16 bg-white rounded-md z-10 "
                 version="1.2"
-                viewBox="0 0 100 300"
+                viewBox="0 0 450 300"
               >
                 <defs>
                   <clipPath id="a">
@@ -284,7 +285,7 @@ function App() {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 272.96 114.01"
-                className="h-16 w-16 bg-white rounded-md z-10 hover:-translate-y-8 transition-transform duration-500 ease-in-out"
+                className="h-16 w-16 bg-white rounded-md z-10 "
               >
                 <path
                   className="fill-black"
@@ -310,15 +311,12 @@ function App() {
             image={
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-16 w-16 bg-white rounded-md fill-black stroke-current text-black z-10 hover:-translate-y-8 transition-transform duration-500 ease-in-out"
+                className="h-16 w-16 bg-white rounded-md fill-black stroke-current text-black z-10 "
                 viewBox="0 0 25 22"
-                height={72}
-                width={48}
                 stroke="black"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                class="feather feather-github"
               >
                 <path
                   className="fill-black height-12 width-12"
@@ -335,7 +333,7 @@ function App() {
                 version="1.1"
                 x="0px"
                 y="0px"
-                className="h-16 w-16 bg-white rounded-md z-10 hover:-translate-y-8 transition-transform duration-500 ease-in-out"
+                className="h-16 w-16 bg-white rounded-md z-10 "
                 viewBox="0 0 18 7"
               >
                 <path
