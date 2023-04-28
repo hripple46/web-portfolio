@@ -5,6 +5,7 @@ import FloatingSkills from "./FloatingSkills";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import PopupSkills from "./PopupSkills";
+import Navbar from "./Navbar";
 
 function App() {
   useEffect(() => {
@@ -14,13 +15,7 @@ function App() {
 
   return (
     <div className="bg-indigo-950 h-full">
-      <nav className="z-20 fixed bg-indigo-950 top-0 left-0 right-0 flex items-center justify-between  w-screen h-16">
-        <ul className="flex flex-row justify-evenly w-full">
-          <li className="text-white">Skills</li>
-          <li className="text-white">Projects</li>
-          <li className="text-white">Contact</li>
-        </ul>
-      </nav>
+      <Navbar />
       <div className="h-screen pt-28 md:pt-0 md:h-screen md-16 border-b-4 flex flex-col items-center justify-evenly md:flex-row">
         <div className="h-3/5 relative md:w-[360px]">
           <img className="h-full w-auto" src={ProfilePic} alt="Profile" />
