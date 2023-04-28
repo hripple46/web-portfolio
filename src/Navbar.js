@@ -4,12 +4,15 @@ const Navbar = () => {
   const [pageWidth, setPageWidth] = useState(window.innerWidth);
 
   useEffect(() => {
-    document.addEventListener("resize", () => {
+    const handleResize = () => {
       setPageWidth(window.innerWidth);
-
       setPageHeight(window.innerHeight);
-      console.log(pageHeight);
-    });
+    };
+
+    document.addEventListener("resize", handleResize);
+    return () => {
+      document.removeEventListener("resize", handleResize);
+    };
   }, [pageWidth, pageHeight]);
 
   return (
