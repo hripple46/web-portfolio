@@ -9,18 +9,17 @@ export default function Contact() {
         <div className="ml-2 mt-4 w-1/3 border-t-8"></div>
       </div>
       <div className="h-3/4 items-center flex flex-col justify-evenly">
-        <div>
-          <h3 className="text-2xl">Shoot Me An Email:</h3>
-          <h1 className="text-6xl">hhripple@gmail.com</h1>
+        <div className="flex flex-col items-center">
+          <h3 className="md:text-2xl text-xl">Shoot Me An Email:</h3>
+          <h1 className="md:text-6xl text-4xl">hhripple@gmail.com</h1>
         </div>
         <div>
           <h1 className="text-4xl">OR</h1>
         </div>
-        <div>
-          <h3 className="text-2xl">Find Me On Social Media:</h3>
-          <h1 className="text-4xl">
-            Github Placeholder | LinkedIN Placeholder
-          </h1>
+        <div className="flex flex-col items-center">
+          <h3 className="text-xl">Find Me On Social Media:</h3>
+          <h1 className="text-2xl">Github Placeholder</h1>
+          <h1 className="text-2xl">LinkedIn Placeholder</h1>
         </div>
       </div>
     </div>

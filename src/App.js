@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="bg-indigo-950 h-full">
-      <nav className="z-20 fixed bg-indigo-950 top-0 left-0 right-0 flex items-center justify-between   h-16">
+      <nav className="z-20 fixed bg-indigo-950 top-0 left-0 right-0 flex items-center justify-between  w-screen h-16">
         <ul className="flex flex-row justify-evenly w-full">
           <li className="text-white">Skills</li>
           <li className="text-white">Projects</li>
@@ -22,20 +22,14 @@ function App() {
         </ul>
       </nav>
       <div className="h-screen pt-28 md:pt-0 md:h-screen md-16 border-b-4 flex flex-col items-center justify-evenly md:flex-row">
-        <div className="h-3/5 relative w-[360px] ">
+        <div className="h-3/5 relative md:w-[360px]">
           <img className="h-full w-auto" src={ProfilePic} alt="Profile" />
+          <FloatingSkills style="top-0 md:-left-2 left-0" skillText={"React"} />
           <FloatingSkills
-            style={{ top: "0", left: "-2rem" }}
-            skillText={"React"}
-          />
-          <FloatingSkills
-            style={{ top: "6rem", right: "-2rem" }}
+            style="top-16 right-0 md:-2rem 0rem"
             skillText={"JavaScript"}
           />
-          <FloatingSkills
-            style={{ bottom: "4rem", left: "0" }}
-            skillText={"CSS"}
-          />
+          <FloatingSkills style="bottom-4 left-0" skillText={"CSS"} />
         </div>
         <div className="w-3/4 md:w-1/3">
           <p className="hidden md:block text-sm mb-12 text-white">
@@ -354,7 +348,7 @@ function App() {
           />
         </div>
       </div>
-      <div className=" flex flex-col justify-around md:relative h-screen bg-indigo-950 ">
+      <div className=" flex flex-col justify-around md:relative h-screen bg-indigo-950 overflow-hidden">
         <h1 className=" md:absolute  md:mt-8 md:justify-self-center  md:top-0 text-center  text-4xl text-white md:mb-8">
           Projects
         </h1>
