@@ -6,6 +6,9 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 import PopupSkills from "./PopupSkills";
 import Navbar from "./Navbar";
+import project1 from "./img/Image 4-29-23 at 12.53 PM.jpeg";
+import project2 from "./img/Image 4-29-23 at 12.55 PM.jpeg";
+import project3 from "./img/Image 4-29-23 at 1.00 PM.jpeg";
 
 function App() {
   useEffect(() => {
@@ -349,6 +352,7 @@ function App() {
         </h1>
 
         <Projects
+          image={project1}
           project="Project 1"
           xPosition={"md:left-0"}
           scrollPosition={200}
@@ -356,6 +360,7 @@ function App() {
           oldPosition={"md:top-full right-full"}
         />
         <Projects
+          image={project2}
           project="Project 2"
           xPosition={"md:right-1/3"}
           scrollPosition={400}
@@ -363,6 +368,7 @@ function App() {
           oldPosition={"md:top-full right-full"}
         />
         <Projects
+          image={project3}
           project="Project 3"
           xPosition={"md:right-0"}
           scrollPosition={500}

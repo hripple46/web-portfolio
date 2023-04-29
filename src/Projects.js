@@ -25,6 +25,11 @@ const Projects = (props) => {
       }
       }`}
     >
+      <img
+        className="h-full w-full object-cover rounded-md"
+        src={props.image}
+        alt="project"
+      />
       <div className="absolute md:top-full w-full flex md:flex-row flex-col left-full justify-start items-start md:items-center">
         <p className="text-white">{props.project}</p>
         <svg
