@@ -355,7 +355,7 @@ function App() {
           image={project1}
           project="Project 1"
           xPosition={"md:left-0"}
-          scrollPosition={200}
+          scrollPosition={990}
           newPosition={"md:top-[80px] -right-1/4"}
           oldPosition={"md:top-full right-full"}
         />
@@ -363,7 +363,7 @@ function App() {
           image={project2}
           project="Project 2"
           xPosition={"md:right-1/3"}
-          scrollPosition={400}
+          scrollPosition={1140}
           newPosition={"md:top-[272px] -right-1/4"}
           oldPosition={"md:top-full right-full"}
         />
@@ -371,7 +371,7 @@ function App() {
           image={project3}
           project="Project 3"
           xPosition={"md:right-0"}
-          scrollPosition={500}
+          scrollPosition={1340}
           newPosition={"md:top-[464px] -right-1/4"}
           oldPosition={"md:top-full right-full"}
         />
