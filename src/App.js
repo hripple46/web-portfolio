@@ -1,6 +1,7 @@
 import "./App.css";
 import ProfilePic from "./img/IMG_0040_Blue.png";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
+import { Element } from "react-scroll";
 import FloatingSkills from "./FloatingSkills";
 import Projects from "./Projects";
 import Contact from "./Contact";
@@ -15,7 +16,7 @@ function App() {
     // This is to prevent the page from scrolling to the bottom when the page is refreshed
     window.history.scrollRestoration = "manual";
   }, []);
-
+  const ref = useRef(null);
   return (
     <div className="bg-indigo-950 h-full">
       <Navbar />
@@ -41,7 +42,9 @@ function App() {
         </div>
       </div>
       <div className="h-screen bg-indigo-950 flex flex-col justify-evenly">
-        <h1 className="text-4xl text-white text-center">Skills</h1>
+        <Element id="scrollToSkills">
+          <h1 className="text-4xl text-white text-center">Skills</h1>
+        </Element>
         <div className=" flex justify-center">
           <PopupSkills
             title="CSS"
@@ -346,43 +349,47 @@ function App() {
           />
         </div>
       </div>
-      <div className=" flex flex-col justify-around md:relative h-screen bg-indigo-950 overflow-hidden">
-        <h1 className=" md:absolute  md:mt-8 md:justify-self-center  md:top-0 text-center  text-4xl text-white md:mb-8">
-          Projects
-        </h1>
+      <Element id="scrollToProjects">
+        <div className=" flex flex-col justify-around md:relative h-screen bg-indigo-950 overflow-hidden">
+          <h1 className=" md:absolute  md:mt-8 md:justify-self-center  md:top-0 text-center  text-4xl text-white md:mb-8">
+            Projects
+          </h1>
 
-        <Projects
-          image={project1}
-          github="https://github.com/hripple46/Steves-Page"
-          project="Author's Portfolio"
-          projectSite="https://stephentimothyripple.com"
-          xPosition={"md:left-0"}
-          scrollPosition={990}
-          newPosition={"md:top-[80px] -right-1/4"}
-          oldPosition={"md:top-full right-full"}
-        />
-        <Projects
-          image={project2}
-          github="https://github.com/hripple46/Ripple-Film-Hub"
-          project="Film Hub"
-          projectSite="https://hripple46.github.io/Ripple-Film-Hub/"
-          xPosition={"md:right-1/3"}
-          scrollPosition={1140}
-          newPosition={"md:top-[272px] -right-1/4"}
-          oldPosition={"md:top-full right-full"}
-        />
-        <Projects
-          image={project3}
-          github="https://github.com/hripple46/Photo-Tagging"
-          project="Photo Tag"
-          projectSite="https://hripple46.github.io/Photo-Tagging/"
-          xPosition={"md:right-0"}
-          scrollPosition={1340}
-          newPosition={"md:top-[464px] -right-1/4"}
-          oldPosition={"md:top-full right-full"}
-        />
-      </div>
-      <Contact />
+          <Projects
+            image={project1}
+            github="https://github.com/hripple46/Steves-Page"
+            project="Author's Portfolio"
+            projectSite="https://stephentimothyripple.com"
+            xPosition={"md:left-0"}
+            scrollPosition={990}
+            newPosition={"md:top-[80px] -right-1/4"}
+            oldPosition={"md:top-full right-full"}
+          />
+          <Projects
+            image={project2}
+            github="https://github.com/hripple46/Ripple-Film-Hub"
+            project="Film Hub"
+            projectSite="https://hripple46.github.io/Ripple-Film-Hub/"
+            xPosition={"md:right-1/3"}
+            scrollPosition={1140}
+            newPosition={"md:top-[272px] -right-1/4"}
+            oldPosition={"md:top-full right-full"}
+          />
+          <Projects
+            image={project3}
+            github="https://github.com/hripple46/Photo-Tagging"
+            project="Photo Tag"
+            projectSite="https://hripple46.github.io/Photo-Tagging/"
+            xPosition={"md:right-0"}
+            scrollPosition={1340}
+            newPosition={"md:top-[464px] -right-1/4"}
+            oldPosition={"md:top-full right-full"}
+          />
+        </div>
+      </Element>
+      <Element id="scrollToContact">
+        <Contact />
+      </Element>
     </div>
   );
 }
