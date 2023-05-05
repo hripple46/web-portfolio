@@ -353,7 +353,9 @@ function App() {
 
         <Projects
           image={project1}
-          project="Project 1"
+          github="https://github.com/hripple46/Steves-Page"
+          project="Author's Portfolio"
+          projectSite="https://stephentimothyripple.com"
           xPosition={"md:left-0"}
           scrollPosition={990}
           newPosition={"md:top-[80px] -right-1/4"}
@@ -361,7 +363,9 @@ function App() {
         />
         <Projects
           image={project2}
-          project="Project 2"
+          github="https://github.com/hripple46/Ripple-Film-Hub"
+          project="Film Hub"
+          projectSite="https://hripple46.github.io/Ripple-Film-Hub/"
           xPosition={"md:right-1/3"}
           scrollPosition={1140}
           newPosition={"md:top-[272px] -right-1/4"}
@@ -369,7 +373,9 @@ function App() {
         />
         <Projects
           image={project3}
-          project="Project 3"
+          github="https://github.com/hripple46/Photo-Tagging"
+          project="Photo Tag"
+          projectSite="https://hripple46.github.io/Photo-Tagging/"
           xPosition={"md:right-0"}
           scrollPosition={1340}
           newPosition={"md:top-[464px] -right-1/4"}
