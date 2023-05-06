@@ -1,5 +1,5 @@
 import "./App.css";
-import ProfilePic from "./img/IMG_0040_Blue.png";
+import ProfilePic from "./img/IMG_0040_Blue_Final.png";
 import React, { useState, useEffect, useRef } from "react";
 import { Element } from "react-scroll";
 import FloatingSkills from "./FloatingSkills";
@@ -21,9 +21,9 @@ function App() {
     <div className="bg-indigo-950 h-full">
       <Navbar />
       <div className=" h-screen pt-28 md:pt-0 md:h-screen md-16 border-b-4 flex flex-col items-center justify-evenly md:flex-row">
-        <div className="h-3/5 max-h-[500px] relative md:w-[360px]">
+        <div className=" sm:w-3/5 sm:w-auto  w-[250px] h-auto relative md:w-[360px] ">
           <img
-            className="h-full max-h-[470px] w-auto"
+            className="h-full w-auto object-cover"
             src={ProfilePic}
             alt="Profile"
           />
@@ -41,13 +41,11 @@ function App() {
           />
         </div>
         <div className="w-3/4 md:w-1/3">
-          <p className="hidden md:block text-sm mb-12 text-white">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
+          <p className="hidden md:block text-lg mb-12 text-white">Hey There!</p>
           <h1 className="text-2xl md:text-4xl text-white">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            I'm Henry, your go-to web dev wizard, excelling in JavaScript,
+            React, CSS, HTML, Node.js, and Express. Let's transform your ideas
+            into pixel-perfect digital delights!
           </h1>
         </div>
       </div>

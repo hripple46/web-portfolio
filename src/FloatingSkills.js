@@ -13,7 +13,7 @@ const FloatingSkills = (props) => {
 
   return (
     <div
-      className={` sm:flex justify-center items-center hidden  absolute h-16 w-32 bg-sky-600 rounded-md ${
+      className={` sm:flex justify-center items-center hidden  absolute h-16 w-32 bg-sky-400 rounded-md ${
         props.style
       } ${spin ? "spin-x-axis" : ""}`}
       onMouseEnter={handleMouseEnter}
