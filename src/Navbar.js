@@ -17,20 +17,20 @@ const Navbar = () => {
   }, [pageWidth, pageHeight]);
 
   return (
-    <nav className="z-20 fixed bg-indigo-950 top-0 left-0 right-0 flex items-center justify-between   h-16">
-      <ul className="flex flex-row justify-evenly w-full h-full items-center">
+    <nav className="z-20 fixed bg-indigo-950 top-0 left-0 right-0   h-16">
+      <ul className="flex flex-row justify-around  w-full h-full">
         <Link smooth={true} offset={50} duration={500} to="scrollToSkills">
-          <li className="h-full flex items-center justify-center text-white w-1/4 text-center hover:bg-gray-700 hover:cursor-pointer hover:bg-opacity-50">
+          <li className="h-full flex items-center justify-center text-white w-1/4 text-center  hover:cursor-pointer ">
             Skills
           </li>
         </Link>
         <Link smooth={true} offset={40} duration={500} to="scrollToProjects">
-          <li className="h-full flex items-center justify-center text-white w-1/4 text-center hover:bg-gray-700 hover:cursor-pointer hover:bg-opacity-50">
+          <li className="h-full flex items-center justify-center text-white w-1/4 text-center  hover:cursor-pointer">
             Projects
           </li>
         </Link>
         <Link smooth={true} offset={40} duration={500} to="scrollToContact">
-          <li className="h-full flex items-center justify-center  text-white w-1/4 text-center hover:bg-gray-700 hover:cursor-pointer hover:bg-opacity-50">
+          <li className="h-full flex items-center justify-center  text-white w-1/4 text-center  hover:cursor-pointer ">
             Contact
           </li>
         </Link>

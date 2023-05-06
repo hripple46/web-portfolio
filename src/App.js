@@ -20,15 +20,25 @@ function App() {
   return (
     <div className="bg-indigo-950 h-full">
       <Navbar />
-      <div className="h-screen pt-28 md:pt-0 md:h-screen md-16 border-b-4 flex flex-col items-center justify-evenly md:flex-row">
-        <div className="h-3/5 relative md:w-[360px]">
-          <img className="h-full w-auto" src={ProfilePic} alt="Profile" />
-          <FloatingSkills style="top-0 md:-left-2 left-0" skillText={"React"} />
-          <FloatingSkills
-            style="top-16 right-0 md:-2rem 0rem"
-            skillText={"JavaScript"}
+      <div className=" h-screen pt-28 md:pt-0 md:h-screen md-16 border-b-4 flex flex-col items-center justify-evenly md:flex-row">
+        <div className="h-3/5 max-h-[500px] relative md:w-[360px]">
+          <img
+            className="h-full max-h-[470px] w-auto"
+            src={ProfilePic}
+            alt="Profile"
           />
-          <FloatingSkills style="bottom-4 left-0" skillText={"CSS"} />
+          <FloatingSkills
+            style="top-0 md:-left-2 left-0  sm:block hidden"
+            skillText={"Dog-Lover"}
+          />
+          <FloatingSkills
+            style="top-16 right-0 md:-2rem 0rem  sm:block hidden"
+            skillText={"Movie-Nerd"}
+          />
+          <FloatingSkills
+            style="bottom-4 left-0  sm:block hidden"
+            skillText={"Motivated-Programmer"}
+          />
         </div>
         <div className="w-3/4 md:w-1/3">
           <p className="hidden md:block text-sm mb-12 text-white">

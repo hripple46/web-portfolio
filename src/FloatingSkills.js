@@ -13,12 +13,12 @@ const FloatingSkills = (props) => {
 
   return (
     <div
-      className={`box absolute h-16 w-32 bg-sky-400 rounded-md ${props.style} ${
-        spin ? "spin-x-axis" : ""
-      }`}
+      className={` sm:flex justify-center items-center hidden  absolute h-16 w-32 bg-sky-600 rounded-md ${
+        props.style
+      } ${spin ? "spin-x-axis" : ""}`}
       onMouseEnter={handleMouseEnter}
     >
-      <p className="text-white">{props.skillText}</p>
+      <p className="text-white text-center">{props.skillText}</p>
     </div>
   );
 };
