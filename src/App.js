@@ -358,7 +358,7 @@ function App() {
         </div>
       </div>
       <Element id="scrollToProjects">
-        <div className=" flex flex-col justify-around md:relative h-screen bg-indigo-950 overflow-hidden">
+        <div className=" overflow-hidden flex flex-col justify-around md:relative  h-screen bg-indigo-950 ">
           <h1 className=" md:absolute  md:mt-8 md:justify-self-center  md:top-0 text-center  text-4xl text-white md:mb-8">
             Projects
           </h1>
@@ -366,7 +366,7 @@ function App() {
           <Projects
             image={project1}
             github="https://github.com/hripple46/Steves-Page"
-            project="Author's Portfolio"
+            project={"Authors \n Page"}
             projectSite="https://stephentimothyripple.com"
             xPosition={"md:left-0"}
             scrollPosition={990}
@@ -380,7 +380,7 @@ function App() {
             projectSite="https://hripple46.github.io/Ripple-Film-Hub/"
             xPosition={"md:right-1/3"}
             scrollPosition={1140}
-            newPosition={"md:top-[272px] -right-1/4"}
+            newPosition={"md:top-1/3  -right-1/4"}
             oldPosition={"md:top-full right-full"}
           />
           <Projects
@@ -390,7 +390,7 @@ function App() {
             projectSite="https://hripple46.github.io/Photo-Tagging/"
             xPosition={"md:right-0"}
             scrollPosition={1340}
-            newPosition={"md:top-[464px] -right-1/4"}
+            newPosition={"md:top-2/3 md:-mt-[80px] -right-1/4"}
             oldPosition={"md:top-full right-full"}
           />
         </div>

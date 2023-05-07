@@ -27,3 +27,7 @@ html {
 .box.spin-x-axis {
   animation: spin 0.5s 1 forwards;
 }
+
+.myCustomPositioning {
+  top: calc(100%- 80px);
+}

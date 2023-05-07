@@ -20,7 +20,7 @@ const Projects = (props) => {
     <div
       className={`relative md:absolute ${
         props.xPosition
-      }  transition-all translate ease-in delay-300 h-1/4 w-1/2 md:w-1/3 h-1/3 bg-sky-400 rounded-md ${
+      }  transition-all translate ease-in delay-300 h-1/4 w-1/2 md:w-1/3 bg-sky-400 rounded-md ${
         isVisible ? props.newPosition : props.oldPosition
       }
       }`}
@@ -31,7 +31,7 @@ const Projects = (props) => {
         alt="project"
       />
       <div className="absolute md:top-full md:mt-1 top-0 w-full  flex md:flex-row flex-col md:left-0 left-full justify-start items-start md:items-center">
-        <p className="text-white">{props.project}</p>
+        <p className="text-white whitespace-pre-line">{props.project}</p>
         <div
           className="h-[28px] w-[28px] p-1 md:p-0.5 hover:bg-gray-400 md:ml-2 md:mr-1 hover:rounded-md"
           onClick={() => {
