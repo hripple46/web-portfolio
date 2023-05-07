@@ -21,7 +21,7 @@ function App() {
     <div className="bg-indigo-950 h-full">
       <Navbar />
       <div className=" h-screen pt-28 md:pt-0 md:h-screen md-16 border-b-4 flex flex-col items-center justify-evenly md:flex-row">
-        <div className=" sm:w-3/5 sm:w-auto  w-[250px] h-auto relative md:w-[360px] ">
+        <div className="   w-[250px] h-auto relative md:w-[360px] ">
           <img
             className="h-full w-auto object-cover"
             src={ProfilePic}
@@ -41,7 +41,7 @@ function App() {
           />
         </div>
         <div className="w-3/4 md:w-1/3">
-          <p className="hidden md:block text-lg mb-12 text-white">Hey There!</p>
+          <p className="hidden md:block text-md mb-12 text-white">Hey There!</p>
           <h1 className="text-2xl md:text-4xl text-white">
             I'm Henry, your go-to web dev wizard, excelling in JavaScript,
             React, CSS, HTML, Node.js, and Express. Let's transform your ideas
