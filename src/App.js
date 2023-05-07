@@ -20,10 +20,10 @@ function App() {
   return (
     <div className="bg-indigo-950 h-full">
       <Navbar />
-      <div className=" h-screen pt-28 md:pt-0 md:h-screen md-16 border-b-4 flex flex-col items-center justify-around md:flex-row">
+      <div className=" h-screen pt-28 md:pt-0 md:h-screen md-16 border-b-4 flex flex-col items-center justify-evenly md:justify-around md:flex-row">
         <div className="relative">
           <img
-            className="h-[300px] sm:h-[500px] w-auto object-cover"
+            className="h-[350px] sm:h-[500px] w-auto object-cover"
             src={ProfilePic}
             alt="Profile"
           />
