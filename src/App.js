@@ -20,23 +20,23 @@ function App() {
   return (
     <div className="bg-indigo-950 h-full">
       <Navbar />
-      <div className=" h-screen pt-28 md:pt-0 md:h-screen md-16 border-b-4 flex flex-col items-center justify-evenly md:flex-row">
-        <div className="   w-[250px] h-auto relative md:w-[360px] ">
+      <div className=" h-screen pt-28 md:pt-0 md:h-screen md-16 border-b-4 flex flex-col items-center justify-around md:flex-row">
+        <div className="relative">
           <img
-            className="h-full w-auto object-cover"
+            className="h-[300px] sm:h-[500px] w-auto object-cover"
             src={ProfilePic}
             alt="Profile"
           />
           <FloatingSkills
-            style="top-0 md:-left-2 left-0  sm:block hidden"
+            style="top-1/4  left-3/4 sm:block hidden"
             skillText={"Dog-Lover"}
           />
           <FloatingSkills
-            style="top-16 right-0 md:-2rem 0rem  sm:block hidden"
+            style="top-16 right-3/4 md:-2rem 0rem  sm:block hidden"
             skillText={"Movie-Nerd"}
           />
           <FloatingSkills
-            style="bottom-4 left-0  sm:block hidden"
+            style="bottom-1/4 right-3/4  sm:block hidden"
             skillText={"Motivated-Programmer"}
           />
         </div>
