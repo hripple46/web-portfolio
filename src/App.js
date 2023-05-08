@@ -1,5 +1,5 @@
 import "./App.css";
-import ProfilePic from "./img/IMG_0040_Blue_Final.png";
+import ProfilePic from "./img/IMG_0040_Blue_Small.png";
 import React, { useState, useEffect, useRef } from "react";
 import { Element } from "react-scroll";
 import FloatingSkills from "./FloatingSkills";
