@@ -18,8 +18,19 @@ export default function Contact() {
         </div>
         <div className="flex flex-col items-center">
           <h3 className="text-xl">Find Me On Social Media:</h3>
-          <h1 className="text-2xl">Github Placeholder</h1>
-          <h1 className="text-2xl">LinkedIn Placeholder</h1>
+          <a href="https://github.com/hripple46" target="_blank">
+            <h1 className="text-2xl border-white border-2 rounded p-1 mb-4 mt-2">
+              Github
+            </h1>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/henry-ripple-5711b3155/"
+            target="_blank"
+          >
+            <h1 className="text-2xl border-white border-2 rounded p-1">
+              LinkedIn
+            </h1>
+          </a>
         </div>
       </div>
     </div>
