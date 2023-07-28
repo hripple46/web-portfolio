@@ -9,7 +9,7 @@ import PopupSkills from "./PopupSkills";
 import Navbar from "./Navbar";
 import project1 from "./img/Image 4-29-23 at 12.53 PM.jpeg";
 import project2 from "./img/Image 4-29-23 at 12.55 PM.jpeg";
-import project3 from "./img/Image 4-29-23 at 1.00 PM.jpeg";
+import project3 from "./img/Screenshot 2023-07-28 at 1.10.35 PM.png";
 
 function App() {
   useEffect(() => {
@@ -364,6 +364,7 @@ function App() {
           </h1>
 
           <Projects
+            description="In this project, the development of a dynamic web application allowed for an impressive showcase of an author's work while promoting user engagement. The use of Google Firestore underscored my capabilities in robust data management, and the design emphasis on the author's styling and community interaction highlighted a strong grasp of user-centric design and styling principles."
             image={project1}
             github="https://github.com/hripple46/Steves-Page"
             project={"Authors \n Page"}
@@ -374,6 +375,7 @@ function App() {
             oldPosition={"md:top-full right-full"}
           />
           <Projects
+            description="In this endeavor, an IMDb-like web application was developed using React and Firebase, emphasizing my proficiency in frontend development. The integration of features such as a title-based search function and a star rating system demonstrated a solid grasp of creating intuitive and efficient user interfaces."
             image={project2}
             github="https://github.com/hripple46/Ripple-Film-Hub"
             project="Film Hub"
@@ -384,10 +386,12 @@ function App() {
             oldPosition={"md:top-full right-full"}
           />
           <Projects
+            description="This project, featuring a single-page web application developed with ExpressJS and ReactJS, highlighted effective use of MongoDB for seamless data handling. The integration of Tailwind CSS and Vite further demonstrated an adeptness with modern design principles and efficient development workflows, all while maintaining a focus on user-friendly interfaces and strong user management practices."
             image={project3}
-            github="https://github.com/hripple46/Photo-Tagging"
-            project="Photo Tag"
-            projectSite="https://hripple46.github.io/Photo-Tagging/"
+            github="https://github.com/hripple46/Movie-Social-Client"
+            github2="https://github.com/hripple46/Movie-Social-Api"
+            project="Movie Groups"
+            projectSite="https://movie-groups.com"
             xPosition={"md:right-0"}
             scrollPosition={1340}
             newPosition={"md:top-2/3 md:-mt-[80px] -right-1/4"}
