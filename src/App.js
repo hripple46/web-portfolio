@@ -1,3 +1,5 @@
+import ReactGA from "react-ga";
+
 import "./App.css";
 import ProfilePic from "./img/IMG_0040_Blue_Small.png";
 import React, { useState, useEffect, useRef } from "react";
@@ -12,6 +14,8 @@ import project2 from "./img/Image 4-29-23 at 12.55 PM.jpeg";
 import project3 from "./img/Screenshot 2023-07-28 at 1.10.35 PM.png";
 
 function App() {
+  const trackingId = "UA-256236245-1";
+  ReactGA.initialize(trackingId);
   useEffect(() => {
     // This is to prevent the page from scrolling to the bottom when the page is refreshed
     window.history.scrollRestoration = "manual";
